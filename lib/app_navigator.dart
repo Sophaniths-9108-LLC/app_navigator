@@ -21,17 +21,26 @@ class AppNavigator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: title != null
-          ? AppBar(
-              leading: leading,
-              title: Text(title!, style: AppTextStyles.header),
-              actions: actions,
-            )
-          : null,
-      floatingActionButton: floatingActionButton,
-      body: body,
-      bottomNavigationBar: bottomNavigationBar,
+    return GestureDetector(
+      onTap: () {
+        FocusScope.of(context).unfocus();
+      },
+      onTapDown: (details) {
+        FocusScope.of(context).unfocus();
+      },
+      child: Scaffold(
+        appBar: title != null
+            ? AppBar(
+                elevation: AppDimensions.elevation,
+                leading: leading,
+                title: Text(title!, style: AppTextStyles.header),
+                actions: actions,
+              )
+            : null,
+        floatingActionButton: floatingActionButton,
+        body: body,
+        bottomNavigationBar: bottomNavigationBar,
+      ),
     );
   }
 }

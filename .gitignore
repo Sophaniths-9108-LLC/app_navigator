@@ -5,9 +5,11 @@
 *.swp
 .DS_Store
 .atom/
+.build/
 .buildlog/
 .history
 .svn/
+.swiftpm/
 migrate_working_dir/
 
 # IntelliJ related
@@ -30,3 +32,4 @@ migrate_working_dir/
 /build/
 /coverage/
 .metadata
+ios/Podfile.lock

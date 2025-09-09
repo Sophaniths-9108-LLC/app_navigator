@@ -3,16 +3,16 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppTextStyles {
   static final TextStyle header = GoogleFonts.poppins(
-    fontSize: 24,
+    fontSize: 18,
     fontWeight: FontWeight.w600,
   );
 
   static final TextStyle title = GoogleFonts.poppins(
-    fontSize: 20,
+    fontSize: 16,
     fontWeight: FontWeight.w500,
   );
   static final TextStyle subtitle = GoogleFonts.poppins(
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: FontWeight.w400,
   );
 
