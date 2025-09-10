@@ -5,7 +5,6 @@ homepage: https://github.com/Sophaniths-9108-LLC/app_navigator/blob/main/README.
 repository: https://github.com/Sophaniths-9108-LLC/app_navigator.git
 issue_tracker: https://github.com/Sophaniths-9108-LLC/app_navigator/issues
 documentation: https://github.com/Sophaniths-9108-LLC/app_navigator/blob/main/README.md
-publish_to: "none"
 version_control: git
 author_email: sophanit.9108@gmail.com
 license: MIT
