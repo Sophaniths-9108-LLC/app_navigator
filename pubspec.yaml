@@ -1,10 +1,10 @@
 name: app_navigator
 description: A Dart/Flutter package for managing app navigation.
 version: 0.0.1+1
-homepage: https://github.com/sophanit/app_navigator
-repository: https://github.com/sophanit/app_navigator
-issue_tracker: https://github.com/sophanit/app_navigator/issues
-documentation: https://github.com/sophanit/app_navigator/blob/main/README.md
+homepage: https://github.com/Sophaniths-9108-LLC/app_navigator/blob/main/README.md
+repository: https://github.com/Sophaniths-9108-LLC/app_navigator.git
+issue_tracker: https://github.com/Sophaniths-9108-LLC/app_navigator/issues
+documentation: https://github.com/Sophaniths-9108-LLC/app_navigator/blob/main/README.md
 publish_to: none
 version_control: git
 author_email: sophanit.9108@gmail.com
