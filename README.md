@@ -42,6 +42,9 @@ Key points in `main.dart`:
 
 This structure makes it easy to build modern, consistent, and user-friendly screens in your Flutter app.
 
+> **Update (v1.0.0+1):**  
+> Initial release of App Navigator with customizable scaffold, Material 3 theming, and Google Fonts integration.  
+> See example usage below for quick integration tips.
 
 ## License
 
